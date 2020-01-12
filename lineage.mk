@@ -24,13 +24,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Inherit some common RR stuff
-$(call inherit-product, vendor/rr/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4
 PRODUCT_DEVICE := prada
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := rr_prada
+PRODUCT_NAME := lineage_prada
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
