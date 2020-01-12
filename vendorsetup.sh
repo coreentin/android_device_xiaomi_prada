@@ -14,5 +14,6 @@
 # limitations under the License.
 #
 
-add_lunch_combo lineage_prada-userdebug
-add_lunch_combo lineage_prada-eng
+for var in eng user userdebug; do
+  add_lunch_combo lineage_prada-$var
+done
